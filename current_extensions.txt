@@ -1,0 +1,13 @@
+1.Better Comments                       by: Aaron Bond
+2.Better Jinja                          by: Samuel Colvin
+3.Git Graph                             by: mhutchie 
+4.HTML CSS Support                      by: ecmel
+5.JavaScript and TypeScript Nightly     by: Microsoft
+6.Jinja                                 by: wholroyd
+7.One Dark Pro                          by: binaryify
+8.open in browser                       by: TechER
+9.Prettier - Code formatter             by: Prettier
+10.Pylance                              by: Microsoft
+11.Pyhton                               by: Microsoft
+12.Pyhton Debugger                      by: Microsoft
+13.Pyhton Environment                   by: Microsoft     
