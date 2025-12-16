@@ -74,3 +74,55 @@ def is_prime(num):
 print("Is the number a prime number:", is_prime(73))
 
 #! Modification of a Global Scope Variable
+ascii = ["""
+                    *****************
+               ******               ******
+           ****                           ****
+        ****                                 ***
+      ***                                       ***
+     **           ***               ***           **
+   **           *******           *******          ***
+  **            *******           *******            **
+ **             *******           *******             **
+ **               ***               ***               **
+**                                                     **
+**       *                                     *       **
+**      **                                     **      **
+ **   ****                                     ****   **
+ **      **                                   **      **
+  **       ***                             ***       **
+   ***       ****                       ****       ***
+     **         ******             ******         **
+      ***            ***************            ***
+        ****                                 ****
+           ****                           ****
+               ******               ******
+                    *****************
+
+"""]
+
+
+num_of_beverages = 19
+print("How many beverages has Dom Drank?")
+
+def amount_dom_has_drank(amount):
+    print(f"Dom has had {num_of_beverages} beverages, and is still thirsty!")     #@ Shows old global amount before function fully runs.
+    return amount + 17                                       #* Changes Global amount.
+    
+
+num_of_beverages = amount_dom_has_drank(num_of_beverages)
+print(f"Dom has now drank {num_of_beverages} beverages! \n")  #@ Shows new Global amount after function runs.
+print("GOOD LUCK ON THE THIRD ROUND OF INTERVIEW!")
+print("I believe in you!")
+print("".join(ascii))
+
+
+#! Global Constants: Typically typed out in all capitals to let user know that is avariable they don't want changed globally.
+
+#* For Example if you are needing this many digits of PI throughout your code.
+PI = 3.141592653589793
+
+def digit():
+    print(PI)
+
+digit()
