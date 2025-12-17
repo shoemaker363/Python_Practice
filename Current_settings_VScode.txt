@@ -15,6 +15,9 @@
     "workbench.colorTheme": "One Dark Pro Night Flat",
     "workbench.colorCustomizations": {
     
+
+    
+    
         
         "titleBar.border": "#ff0000",
         "textBlockQuote.border": "#fa2a06",
@@ -56,7 +59,7 @@
         "functions": "#65eafc",
         "numbers": "#3fdaee",
         "strings": "#028a19",
-        "variables": "#f5e505",
+        "variables": "#fff129",
         "types": "#0ae96e",    
     },
     "oneDarkPro.editorTheme": "Dark Modern",
@@ -109,7 +112,7 @@
             "italic": false
         },
         {
-            "tag": "todo",
+            "tag": "to",
             "color": "#FF8C00",
             "strikethrough": false,
             "underline": false,
@@ -134,7 +137,17 @@
             "backgroundColor": "transparent",
             "bold": false,
             "italic": false
-        }
+        },
+        {
+            "tag": "#",
+            "color": "#f5e505",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }        
     ],
+    "explorer.confirmDragAndDrop": false,
 }
-    
+     
