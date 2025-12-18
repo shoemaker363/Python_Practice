@@ -1,3 +1,7 @@
+
+#! Hangman
+
+
 import random
 stages = ['''
   +----+   
@@ -147,7 +151,7 @@ word_list = ["aardvark", "baboon", "camel", "college", "learn"]
 
 
 # #! Step 4
-# # TODO Create a cariable called lives to keep track of the number of lives and set live to equal 6.
+# # TODO Create a variable called lives to keep track of the number of lives and set live to equal 6.
 # lives = 6
 
 # chosen_word = random.choice(word_list)

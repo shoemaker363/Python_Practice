@@ -1,4 +1,7 @@
-#day 3 excersices 
+
+
+#! if & else
+
 #! 1. if / else statements
 
 # print("Welcome to the rollercoaster!")

@@ -1,4 +1,6 @@
 
+#! Basics
+
 #! Basic print function
 # print("Hello world!\nHello world!")  #? the \n adds new line
 # print("Hello" + " Dom") #? catanation
