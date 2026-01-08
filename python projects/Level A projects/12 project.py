@@ -1,12 +1,12 @@
 
 #! Making a number guessing game.
-# Todo Range of numbers will be from 1 to 100.
-# Todo Have 2 difficulty modes in the same program: Easy and Hard.
-# Todo Easy Mode: User will have 10 attempts to guess the number.
-# Todo Hard Mode: User will have 5 attempts to guess the number.
+
+# TODO: Range of numbers will be from 1 to 100.
+# TODO: Have 2 difficulty modes in the same program: Easy and Hard.
+# TODO: Easy Mode: User will have 10 attempts to guess the number.
+# TODO: Hard Mode: User will have 5 attempts to guess the number.
+
 #* Solution starts on line 100
-
-
 
 
 

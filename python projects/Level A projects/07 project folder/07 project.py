@@ -1,10 +1,10 @@
 
-#! Making the game hangman, with added module files. Also, make it more player friendly visually.
+#!      Hangman
+
+# TODO: Making the game hangman, with added module files. Also, make it more player friendly visually.
+#@ Website to reference importing files: https://www.askpython.com/python/python-import-statement 
+
 #* Simple solution starts at line 100.
-#? Website to reference importing files: https://www.askpython.com/python/python-import-statement 
-
-
-
 
 
 
@@ -99,13 +99,13 @@
 
 # import random 
 
-#                                     #? 2 methods of importing variables from other files
-# from wordlist import word_list      #* First method, pulls specific variable
+#                                     ## 2 methods of importing variables from other files
+# from wordlist import word_list      ## First method, pulls specific variable
 
-# import ASCII_Art                    #* Second method, if there's multiple variables, all variables in file are pulled 
+# import ASCII_Art                    ## Second method, if there's multiple variables, all variables in file are pulled 
 # lives = 6
 
-# chosen_word = random.choice(word_list).lower()    #? First method does not require additional inputs.
+# chosen_word = random.choice(word_list).lower()    ## First method does not require additional inputs.
 
 # placeholder = ""
 # word_length = len(chosen_word)
@@ -149,4 +149,4 @@
 #         game = True
 #         print("*********************You Win!*********************")
 
-#     print(ASCII_Art.stages[lives])                #? Method 2 of import requires the addition of the "ASCII_ART." to pull the import
+#     print(ASCII_Art.stages[lives])                ## Method 2 of import requires the addition of the "ASCII_ART." to pull the import

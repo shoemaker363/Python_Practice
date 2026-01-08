@@ -4,18 +4,18 @@ direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower
 text = input("Type your message:\n").lower()
 shift = int(input("Type the shift number:\n"))
 
-#! Making a type of Caesar Cipher
-#! Solution starts on line 100
+#!      Making a type of Caesar Cipher
 
-# TODO 1) Create a function called "cipher()" that takes the inputs 'text' and 'amount' and 'done'
+# TODO: Create a function called "cipher()" that takes the inputs 'text' and 'amount' and 'done'.
+# TODO: For encode, shift each letter of the 'text' forward in the alphabet by 'amount'.
+# TODO: For decode, shift each letter of the 'text' backwards in the alphabet by 'amount'.
+# TODO: Find a way to deal with Random inputs from user.
+# TODO: Have the Cipher program be capable of restarting and ending when you want, so you dont have to hit Run program.
 
-# TODO 2) For encode, shift each letter of the 'text' forward in the alphabet by 'amount'.
+#* Solution starts on line 100
 
-# TODO 3) For decode, shift each letter of the 'text' backwards in the alphabet by 'amount'.
 
-# TODO 4) Find a way to deal with Random inputs from user.
 
-# TODO 5) Have the Cipher program be capable of restarting and ending when you want, so you dont have to hit Run program.
 
 
 

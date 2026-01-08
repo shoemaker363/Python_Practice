@@ -4,9 +4,12 @@ from turtle import Screen
 import random
 t = turtle.Turtle()
 turtle.colormode(255)
-# Todo: Use website url to see how to use colorgram.
+
+#! Colorgram
+
+# TODO: Use website url to see how to use colorgram.
 #@      https://pypi.org/project/colorgram.py/
-# Todo: Extract the colors from the image 'spot.jpg'.
+# TODO: Extract the colors from the image 'spot.jpg'.
 
 rgb = []
 colors = colorgram.extract("python projects/Level B projects/18 project folder/spot.jpg", 20)
@@ -20,17 +23,14 @@ for color in colors:
 
 print(rgb)
 
-# Todo: Make the extracted RGB colors useable with the turtle.
-# Todo: Make your own 'spot' image with 100 dots in a 10x10 with randomized coloring from the extracted colors.
+#!      Image production
+
+# TODO: Make the extracted RGB colors useable with the turtle.
+# TODO: Make your own 'spot' image with 100 dots in a 10x10 with randomized coloring from the extracted colors.
+
 #* Option A solution starts on line 100 
 #* Option B solution starts on line 125
-#! There are different types of ways to come up with a solution, dont put yourself down if its not the same
-
-
-
-
-
-
+## There are different types of ways to come up with a solution, dont put yourself down if its not the same
 
 
 

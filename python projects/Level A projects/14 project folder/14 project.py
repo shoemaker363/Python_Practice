@@ -1,15 +1,15 @@
 
-#!: Make the Higher lower game 
-# Todo: Use available dictionary (contestants.py) and art (ascii_art.py).
-# Todo: Generate a random accout from the dictionary.
-# Todo: Format the account data into printable format.
-# Todo: Ask player for a guess.
-# Todo: Check if player is correct.
-# Todo: provide feedback to player (ie. round counter, whether they guessed right or not).
-# Todo: If player is correct have Celeb in B position move to celeb A position.
+#!      Make the Higher or Lower game 
+
+# TODO: Use available dictionary (contestants.py) and art (ascii_art.py).
+# TODO: Generate a random account from the dictionary.
+# TODO: Format the account data into printable format.
+# TODO: Ask player for a guess.
+# TODO: Check if player is correct.
+# TODO: Provide feedback to player (ie. round counter, whether they guessed right or not).
+# TODO: If player is correct, have 'Celeb B' position move to the 'Celeb A' position.
+
 #* Solution starts on line 100
-
-
 
 
 

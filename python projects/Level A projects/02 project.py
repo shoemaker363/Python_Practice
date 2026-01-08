@@ -1,15 +1,15 @@
 
-#TODO   Making a tip calculator with only 2 decimal places.
-#TODO   Your goal is to make A calculator that takes variables from user and calculates the result.
+#!      Tip Calculator
 
-#!      Bill Amount.
-#!      Tip Amount.
-#!      Number of people splitting the bill. 
+# TODO: Making a tip calculator with only 2 decimal places.
+# TODO: Your goal is to make A calculator that takes variables from user and calculates the result.
+# TODO: Total needs to be amount per person.
 
-#!      Total needs to be amount per person.
+## Variable: Bill Amount.
+## Variable: Tip Amount.
+## Variable: Number of people splitting the bill. 
 
-#?      My solution will start on line 100 for you to reference if you need to.
-
+#* Solution starts on line 100
 
 
 
@@ -110,6 +110,5 @@
 
 # bill_per_person = bill_total / split
 # total = round(bill_per_person, 2)
-
 
 # print(f"The total amount per person is: ${total}.")

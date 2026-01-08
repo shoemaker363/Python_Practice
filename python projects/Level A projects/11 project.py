@@ -1,12 +1,12 @@
+cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+#!      Blackjack Game
 
-#! Blackjack 
-# Todo Deck is unlimited in size, no Jokers, Jack/Queen/King = 10, Ace counts as 11 or 1
-# Todo the line below is your list for cards to use.
-# cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+# TODO: Deck is unlimited in size, no Jokers, Jack/Queen/King = 10, Ace counts as 11 or 1
+# TODO: The line below is your list for cards to use.
+
+##      This is challenging, I wish you the best of luck!
+
 #* Solution starts on line 100
-#@ This is challenging, I wish you the best of luck!
-
-
 
 
 
@@ -168,4 +168,3 @@
 # while input("Do you want to play a round of Blackjack? Type 'yes' or 'no': ").lower() == "yes":
 #     print("\n" * 20)
 #     play_game()
-

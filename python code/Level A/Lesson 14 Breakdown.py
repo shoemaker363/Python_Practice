@@ -2,18 +2,20 @@
 #! Breakdown for coding
 
 
-#@ Step 1: Breakdown the problem
-#*          Identify the different pieces involved in building your program into smaller segments
+## Step 1: Breakdown the problem.
+#*          Identify the different pieces involved in building your program and make into smaller segments.
 
-#@ Step 2: Make a To-do list of for the breakdown
-#*          Start with easiest
+## Step 2: Make a To-do list of for the breakdown.
+#*          Start with easiest problems .
 
-#@ Step 3: Make comments to think out the problems as you go
-#*          Provides a means of thinking about the problems one at a time
+## Step 3: Make comments to think out the problems as you go.
+#*          Provides a means of thinking about the problems one at a time.
+#*          Also useful for helping you or anyone else reading the code identify what each part of code is doing.
 
-#@ Step 4: Start writing your code
+## Step 4: Start writing your code.
 #*          Take it one step at a time.
-#*          Start with first problem, run it to ensure it works or debug and run again until it works
+#*          Start with first problem, run it to ensure it works or debug and run again until it works.
 
-#@ Step 5: Move onto the next task
-#*          Moving to next easiest until you are out of To-do's
+## Step 5: Move onto the next task.
+#*          Moving to next easiest until you are out of To-do's.
+#*          Continue from step 3.

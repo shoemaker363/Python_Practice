@@ -1,5 +1,5 @@
 
-#! Higher Order of Functions and Event Listners.
+#! Higher Order of Functions, Event Listeners, and Slicing.
 #@ Turtle listener documents: https://docs.python.org/3/library/turtle.html#turtle.listen 
 
 # ## Listners are using function as a input.
@@ -70,8 +70,8 @@
 
 #! Object State and Instances
 
-from turtle import Turtle, Screen
-import random
+# from turtle import Turtle, Screen
+# import random
 
 # good_to_race = False
 
@@ -115,3 +115,34 @@ import random
 #         turtle.fd(rando_distance)
 
 # screen.exitonclick()
+
+# #! Slicing Lists and Tuples
+
+# ##      0   1    2    3    4    5    6    7      Position numbers.
+# ##      |   |    |    |    |    |    |    |      Where placement positions are.
+# list =  ["a", "b", "c", "d", "e", "f", "g"]
+# tuple = ("t", "u", "v", "w", "x", "y", "z")
+
+# ## Starting position Slice from 'list' and 'tuple'.
+# print(list[2:], "This is slicing a List with a Starting postion and omitting the End position.\n")
+# print(tuple[2:], "This is slicing a Tuple with a Starting postion and omitting the End position.\n")
+
+# ## End Position Slice from 'list' and 'tuple'.
+# print(list[:5], "This is slicing a List with Starting position being omitted and a End position.\n")
+# print(tuple[:5], "This is slicing a Tuple with Starting position being omitted and a End position.\n")
+
+# ## Incremental counting of 'list' and 'tuple'.
+# print(list[::2], "This is slicing a List with both Start and End positions being omitted and counting the list in Increments.\n")
+# print(tuple[::2], "This is slicing a Tuple with both Start and End positions being omitted and counting the list in Increments.\n")
+
+# ## Incremental counting in reverse with 'list' and 'tuple'.
+# print(list[::-2], "This is slicing a List with both Start and End positions being omitted and counting the list in reverse order with Increments.\n")
+# print(tuple[::-2], "This is slicing a Tuple with both Start and End positions being omitted and counting the list in reverse order with Increments.\n")
+
+# ## Both Start and End position from 'list' and 'tuple'.
+# print(list[2:5], "This is slicing a List with a Starting position and a End position.\n")
+# print(tuple[2:5], "This is slicing a Tuple with a Starting position and a End position.\n")
+
+# ## Incremental counting with Start and End positions from 'list' and 'tuple'.
+# print(list[2:5:2], "This is slicing a List with a Starting position, End position, and Increments in counting.\n")
+# print(tuple[2:5:2], "This is slicing a Tuple with a Starting position, End position, and Increments in counting.\n")

@@ -1,12 +1,12 @@
 
-# Todo Building a Standard Calculator.
-# Todo Make all 4 functions.
-# Todo Put all 4 functions into same dictionary.
-# Todo Use dictionary operations to perform operation
-# Todo Make a continuation with same equation option or start over option
+#!      Standard Calculator.
+
+# TODO: Make all 4 functions.
+# TODO: Put all 4 functions into same dictionary.
+# TODO: Use dictionary operations to perform operation
+# TODO: Make a continuation with same equation option or start over option.
+
 #* Solution starts on line 100
-
-
 
 
 

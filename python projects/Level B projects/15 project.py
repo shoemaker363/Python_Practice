@@ -1,17 +1,19 @@
 
-#! Coffee Machine
+#!      Coffee Machine
+
 # Todo: Ask user what the Customer wants to drink.
 # Todo: Have an On and Off function for the Coffee machine.
 # Todo: Printable report of materials at start of shift.
 # Todo: Evaluate resources to make coffee.
-# Todo: Have a way to process differernt coins
+# Todo: Have a way to process differernt coins.
 # Todo: Have a way to deal with Customer who does not have the correct amount in coins.
 # Todo: Be able to check all transactions. (With ability to return correct coins if insufficent amount.)
 # Todo: If Customer has correct amount, have a way to add the correct amount to printable resources as profit.
-# Todo: Have Printable resource list, That shows what you are currently at. (Profit should be at $0.00 for start of shift)
+# Todo: Have Printable resource list, That shows what you are currently at. (Profit should be at $0.00 for start of shift).
 # Todo: Ensure there is enough resources to make the Customers coffee and deduct resources used from resources left.
 # Todo: Give Customer there coffee and give them a farewell.
-#*      Solution starts on line 100.
+
+#* Solution starts on line 100.
 
 menu = {
     "espresso": {
@@ -38,8 +40,6 @@ menu = {
         "cost": 3.0,
     }
 }
-
-
 
 
 

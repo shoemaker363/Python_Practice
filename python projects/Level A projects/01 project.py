@@ -1,12 +1,12 @@
 
-#TODO   Make a random name generator 
-#TODO   criteria
-#!      Create a greeting.
-#!      Ask user for a location, and save as a variable.
-#!      Ask user for an animal, and save as a variable.
-#!      Combine the location and pet in a sentence and print it.
+#!   Make a Random Name Generator.
 
-#?      My solution will start on line 100 for you to reference if you need to.
+# TODO: Create a greeting.
+# TODO: Ask user for a location, and save as a variable.
+# TODO: Ask user for an animal, and save as a variable.
+# TODO: Combine the location and pet in a sentence and print it.
+
+#* Solution starts on line 100
 
 
 

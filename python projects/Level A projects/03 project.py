@@ -1,9 +1,11 @@
 
-#TODO. Make a text adventure for walk down a path.
-#*             Basic flowchart for text adventure:
-#! My solution starts on line 100 for comparison.
-#?         Have a welcome statement for your game.
-#?         Start point: ask user to pick left or right?
+#!      Text Adventure
+
+# TODO: Have a welcome statement for your game.
+# TODO: Have 3 or more paths.
+
+##               Flow chart for reference.
+#?               Start point: ask user to pick left or right?
 #?                                  |
 #?                                  |--------Right------> Game over.
 #?                                  V
@@ -33,9 +35,7 @@
 #?                                                  V
 #?                                              Game over.
 
-
-
-
+#* Solution starts on line 100
 
 
 

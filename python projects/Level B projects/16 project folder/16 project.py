@@ -2,11 +2,11 @@ from resources import Inventory
 from drink import maker
 from money import register
 
-# Todo: Using the previous lessons objectives, make another coffee machine except using the Classes already provided.
-#*      Solution will start on line 100.
+#!      Coffee Machine 2.0
 
+# TODO: Using the previous lessons objectives, make another coffee machine except make Classes in files that are already provided.
 
-
+#* Solution will start on line 100.
 
 
 

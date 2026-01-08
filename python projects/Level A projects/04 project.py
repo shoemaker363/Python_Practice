@@ -1,8 +1,7 @@
 
-#TODO Make Rock, Paper, Scissors game
-#! A solution is starts on line 100.
-#? The Rock, Paper, Scissors ASCII is available for use
+#! Make Rock, Paper, Scissors game
 
+## The Rock, Paper, Scissors ASCII is available for you to use.
 Rock = """
     _______
 ---'   ____)
@@ -32,6 +31,7 @@ Scissors = """
 ---.__(___)
 """
 
+#* Solution starts on line 100
 
 
 
@@ -121,5 +121,3 @@ Scissors = """
 #     print("You Win!")
 # elif comp_pick == user_pick:
 #     print("It's a Draw!")
-
-

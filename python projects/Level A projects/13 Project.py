@@ -1,8 +1,11 @@
 
-# Todo: Run through each of the codes and see if you can debug them.
-#*      Solutions start on line 100
+#! Debugging Practice
 
-#! Code 1
+# Todo: Run through each of the codes and see if you can debug them.
+
+#* Solutions start on line 100
+
+## Code 1
 # def odd_or_even(number):
 #     if number % 2 = 0:
 #         return "This is an even number."
@@ -11,7 +14,7 @@
     
 
 
-#! Code 2
+## Code 2
 # def is_leap(year):
 #     if year % 4 == 0:
 #         if year % 100 == 0:
@@ -26,7 +29,7 @@
 
 
 
-#! Code 3
+## Code 3
 # def fizz_buzz(target):
 #     for number in range(1, target + 1):
 #         if number % 3 == 0 or number % 5 == 0:
@@ -94,10 +97,7 @@
 
 
 
-
-
-
-#? Code 1 Solution
+## Code 1 Solution
 # def odd_or_even(number):
 #     if number % 2 == 0:         # Add an "="
 #         print("This is even.")  # Not required, Just here for visual verification                
@@ -110,7 +110,7 @@
 # odd_or_even(2024)               # put a call function in place to run
 
 
-#? Code 2 Solution
+## Code 2 Solution
 # def is_leap(year):
 #     if year % 4 == 0:
 #         if year % 100 == 0:
@@ -130,7 +130,7 @@
 # is_leap(396)        # put a call function in place to run
 
 
-#? Code 3 Solution
+## Code 3 Solution
 # def fizz_buzz(target):
 #     for number in range(1, target + 1):
 #         if number % 3 == 0 and number % 5 == 0:     # Change "or" into "and"

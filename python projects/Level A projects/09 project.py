@@ -1,11 +1,11 @@
 
-# TODO      For todays project, come up with a way to make an auction like scenario.
-# TODO      You will need to make a dictionary to save inputs, make a while statement to run through different users wanting
-# TODO      to place a bid, and when there are no more users, have the game announce the winner by name and bid.
-#*          Solution starts on line 100.
+#!      Auction Game.
 
+# TODO: For todays project, come up with a way to make an auction like scenario.
+# TODO: You will need to make a dictionary to save inputs, make a while statement to run through different users wanting
+# TODO: To place a bid, and when there are no more users, have the game announce the winner by name and bid.
 
-
+#* Solution starts on line 100.
 
 
 
