@@ -10,7 +10,7 @@
 #     "Loop": "The action of doing something over and over again.",                       #@ The content after ":" is your value for the key.
 # }                                                                                       #* Ending point for dictionary
 
-# print(dictionary["Function"])       
+# print(dictionary["function"])       
 
 #* Adding to dictionary
 
