@@ -12,7 +12,7 @@
 
 #$  Unlimited Arguments:
 #?      def function(*args):
-                                        ## ' * ': Tells python the function can accept any number of arguments.
+                                                                    ## ' * ': Tells python the function can accept any number of arguments.
 #*          for n in args:
 #*              print(n)
 
@@ -20,7 +20,7 @@
 #?      ' * ': Required portion for Unlimited Arguments.
 #?      'args': Optional variable name, but args is the standard variable name to use.
 
-def add(*args):                         ## ' * ': Unlimited arguments
+def add(*args):                                                     ## ' * ': Unlimited arguments
     sum = 0
     for n in args:
         sum += n
@@ -32,11 +32,11 @@ print(add(10, 10 , 10, 10, 10, 10, 10, 10, 10, 9))
 #?      ' ** ': Required portion intiate unlimited Keyword Arguments.
 #?      'kwargs': Optional variable name, but kwargs is the standard variable name to use.
 
-def calculate(n, **kwargs):             ## ' ** ': Unlimited Keyword arguments
+def calculate(n, **kwargs):                                         ## ' ** ': Unlimited Keyword arguments
     print(kwargs)
 
-    n += kwargs["add"]                  ## '["add"]': New variable added to Keyword Argument.
-    n *= kwargs["multiply"]             ## '["multiply"]: New variable added to Keyword Argument.
+    n += kwargs["add"]                                              ## '["add"]': New variable added to Keyword Argument.
+    n *= kwargs["multiply"]                                         ## '["multiply"]: New variable added to Keyword Argument.
     print(n)
 
 calculate(2, add=3, multiply=5)
@@ -98,30 +98,30 @@ import tkinter
 #*          With all classes pulled you don't have to write 'tkinter.Class()', you would just type the Class.
 
 #$ Example Window creation and modifications:
-window = tkinter.Tk()                   ## 'Tk()': Can have in parenthesis (1,2,3,4,5,6): 
-                                        ##        1) screenName (str): Sets display environment variable.
-                                        ##        2) baseName (str): Name of the profile file.
-                                        ##        3) className (str): Name of the widget class.
-                                        ##        4) useTk (boolean): If True, initializes the Tk subsystem.
-                                        ##        5) sync (boolean): If True, execute all X server commands synchronously.
-                                        ##        6) use (str): Specifies the ID of the window in which to embed the app.
+window = tkinter.Tk()                                           ## 'Tk()': Can have in parenthesis (1,2,3,4,5,6): 
+                                                                ##        1) screenName (str): Sets display environment variable.
+                                                                ##        2) baseName (str): Name of the profile file.
+                                                                ##        3) className (str): Name of the widget class.
+                                                                ##        4) useTk (boolean): If True, initializes the Tk subsystem.
+                                                                ##        5) sync (boolean): If True, execute all X server commands synchronously.
+                                                                ##        6) use (str): Specifies the ID of the window in which to embed the app.
 
-window.title("Title bar")               ## 'title()': Puts the string on the window title bar.
+window.title("Title bar")                                       ## 'title()': Puts the string on the window title bar.
 
 window.minsize(width=500, height=500) 
-                                        ## 'minsize': Changes starting size of the window.
+                                                                ## 'minsize': Changes starting size of the window.
 
-window.config(padx=20, pady=20)         ## 'padx=20, pady=20': Provides space between edge of screen and working space.
+window.config(padx=20, pady=20)                                 ## 'padx=20, pady=20': Provides space between edge of screen and working space.
 
 #$ Labels inside the Window:
 label = tkinter.Label(text="This is a label.", font=("Arial", 24, "bold")) 
-                                        ## Option 1 to add text and how it looks.
+                                                                ## Option 1 to add text and how it looks.
 
-label.pack(side="bottom")               ## 'pack': Displays the Label on the screen in the created window.
+label.pack(side="bottom")                                       ## 'pack': Displays the Label on the screen in the created window.
 
-label["text"] = "Newer Label Text"      ## 'label["text"]': Option 2 to change displayed text.
+label["text"] = "Newer Label Text"                              ## 'label["text"]': Option 2 to change displayed text.
 
-label.config(text="Newest Label Text")  ## 'label.config': Option 3 to change disdplayed text.
+label.config(text="Newest Label Text")                          ## 'label.config': Option 3 to change disdplayed text.
 
 #$ Buttons in the Window:
 def push_button():
@@ -145,7 +145,7 @@ button2 = tkinter.Button(text="Don't Push The Button", command=label_button)
 
 #$ Place method instead of pack:
 #?      EX. button2.place(x=0, y=0)
-button2.place(x=0, y=400)                                         ## 'x=0, y=0': Based off the size tkinter screen.
+button2.place(x=0, y=400)                                       ## 'x=0, y=0': Based off the size tkinter screen.
 
 #$ Entry Class:
 def button3_pressed():
@@ -190,7 +190,7 @@ def radio_used():
 
 radio_state = tkinter.IntVar()
 
-#? Different valued radio buttons.
+#$ Different valued radio buttons:
 radiobutton1 = tkinter.Radiobutton(text="Option 1", value=1, variable=radio_state, command=radio_used)
 radiobutton2 = tkinter.Radiobutton(text="Option 2", value=2, variable=radio_state, command=radio_used)
 
@@ -216,11 +216,11 @@ window.mainloop()                                               ## 'mainloop()':
 
 #$ Grid method of placing objects:
 #?  Splits the screen into columns and rows.
-#?  starts at top left of window.
+#?  Starts at top left of window.
 
-        ## EX. listbox.grid(column=0, row=0)
+        #* EX. listbox.grid(column=0, row=0)
 
 #?  Change column for horizontal movement across the window.
 #?  Change row for vertical movement across the window.
 
-#? Can not use Pack and Grid in the same in program.
+#?  Can not use Pack and Grid in the same in program.
