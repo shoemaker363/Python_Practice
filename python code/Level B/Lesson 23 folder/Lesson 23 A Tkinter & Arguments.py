@@ -70,6 +70,8 @@ print(f"New company name is {new_company.company} with the CEO being {new_compan
 
 #! Tkinter
 
+#@      Text fonts: python code/Level B/Lesson 23 folder/tkinter_fonts.py
+#@      Text Colors: https://cs111.wellesley.edu/archive/cs111_fall14/public_html/labs/lab12/tkintercolor.html
 #@      The Packer: https://docs.python.org/3/library/tkinter.html#the-packer
 #@      Tk class docs: https://www.tcl-lang.org/man/tcl8.6/TkCmd/pack.htm
 

@@ -26,7 +26,7 @@ def generate():
     text_p.insert(0, f"{new_password}")
 
 #$ Copy Password:
-#?      Pyperclip can automatically copy a string for a user so they can paste it else where.
+#?      Pyperclip can automatically copy a string for a user, so they can paste it else where.
 #@      Documentation: https://pypi.org/project/pyperclip/
     pyperclip.copy(new_password)
 

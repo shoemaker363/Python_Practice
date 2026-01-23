@@ -4,13 +4,13 @@
 #! Dictionaries
 
 # TODO Leave this section uncommented for the rest of dictionary section to use
-# dictionary = {                                                                          #* This is where the start of the dictionary begins. 
-#     "Bug": "An error in a program that prevents the program from running as expected.", #? This content is what your dictionary term references.
-#     "Function": "A piece of code that you can easily call over and over again.",        #@ The content before ":" is your key value
-#     "Loop": "The action of doing something over and over again.",                       #@ The content after ":" is your value for the key.
-# }                                                                                       #* Ending point for dictionary
+dictionary = {                                                                          #* This is where the start of the dictionary begins. 
+    "Bug": "An error in a program that prevents the program from running as expected.", #? This content is what your dictionary term references.
+    "Function": "A piece of code that you can easily call over and over again.",        #@ The content before ":" is your key value
+    "Loop": "The action of doing something over and over again.",                       #@ The content after ":" is your value for the key.
+}                                                                                       #* Ending point for dictionary
 
-# print(dictionary["function"])       
+print(dictionary["function"])       
 
 #* Adding to dictionary
 
