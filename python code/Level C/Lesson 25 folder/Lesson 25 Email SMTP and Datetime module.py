@@ -4,7 +4,7 @@
  
 # #?      smtplib module may give an error 'Connection unexpectedly closed'. 
 # #?      Potential debug options:
-# #*                      Make sure you have the correct smto address for you email provider.
+# #*                      Make sure you have the correct smtp address for you email provider.
 # #//                                         Gmail: smtp.gmail.com
 # #//                                         Hotmail: smtp.live.com
 # #//                                         Yahoo: smtp.mail.yahoo.com

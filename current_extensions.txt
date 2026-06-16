@@ -8,7 +8,7 @@
 8.open in browser                       by: TechER
 9.Prettier - Code formatter             by: Prettier
 10.Pylance                              by: Microsoft
-11.Pyhton                               by: Microsoft
-12.Pyhton Debugger                      by: Microsoft
-13.Pyhton Environment                   by: Microsoft
+11.Python                               by: Microsoft
+12.Python Debugger                      by: Microsoft
+13.Python Environment                   by: Microsoft
 14.Rainbow CSV                          by: mechatroner    
