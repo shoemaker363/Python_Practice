@@ -7,7 +7,8 @@ CURRENT_LNG = -93.290142
 #! API Parameters
 #*      A way to give the API an input and receive a specific type of data back in return.
 #*      Not all APIs have parameters.
-# To see the Sunrise and Sunset API documentation: https://sunrise-sunset.org/api 
+# To see the Sunrise and Sunset API documentation: https://sunrise-sunset.org/api
+#*      Parameters in a URL are normally the portion following the '?' in a URL. 
 
 #? Creation of Parameters dictionary
 #*      Parameters must match the parameters available in the API's documentation.
